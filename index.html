@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinanthi Hasna Sajiddah - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-body">
+
+    <nav class="portfolio-nav">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div>
+            <span class="hero-greeting">Hello, I'm</span>
+            <h1 class="hero-title">Kinanthi Hasna Sajiddah</h1>
+            <p class="hero-subtitle">Informatics Student</p>
+            <p class="hero-description">
+                I enjoy building useful applications, learning new technologies, and collaborating with teams to create meaningful digital solutions.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="./cv/CV_Kinanthi Hasna Sajiddah.pdf" download class="download-btn">
+                    Download CV <i class="fa-solid fa-download"></i></a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="#contact" class="hero-contact-btn">
+                    Contact Me <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-profile-container">
+            <div class="profile-image-wrapper">
+                <img src="assets/profile.png" alt="Kinanthi Hasna Sajiddah" class="profile-image">
+            </div>
+            
+            <div class="quick-info-tags">
+                <div class="info-tag">
+                    <i class="fas fa-map-marker-alt icon-blue"></i> Surakarta, Indonesia
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-container about-section">
+        <div class="mb-8">
+            <h2 class="section-title-tag">About Me</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="about-grid">
+            <div class="about-text-box">
+                <p class="about-paragraph">
+                    I am an Informatics student at Universitas Muhammadiyah Surakarta with a strong interest in software development, particularly <strong>Mobile Development</strong>. 
+                    I enjoy building user-focused applications while continuously improving my programming, problem-solving, and analytical skills through academic projects and collaborative experiences.
+                </p>
+                <p class="about-paragraph">
+                    I am a fast learner who enjoys working in team environments and exploring new technologies. 
+                    Beyond software development, I have an interest in multimedia and photography, which helps me bring creativity and attention to detail into the digital solutions I create.
+                    I am currently seeking internship opportunities where I can contribute, learn, and grow as a developer.
+                </p>
+            </div>
+            
+            <div class="about-highlights">
+                <div class="highlight-item">
+                    <div class="highlight-number">3+</div>
+                    <div class="highlight-label">Academic & Internship Projects Finished</div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-number">1</div>
+                    <div class="highlight-label">Internship Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-container">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title-tag">Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image-wrapper">
+                    <img src="assets/deenapp.png" alt="Project Preview" class="project-image-file">
+                </div>
+                <div>
+                    <span class="project-badge badge-mobile">Mobile App</span>
+                    <h3 class="project-card-title">Deen App</h3>
+                    <p class="project-card-subtitle">Islamic mobile application</p>
+                    <ul class="project-features-list">
+                        <li><i class="fas fa-check-circle feature-icon"></i> Asmaul Husna Feature</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Audio Playback</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Hijri Calendar</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Profile Information</li>
+                    </ul>
+                </div>
+                <div class="project-tags">
+                    <span class="tech-tag">React Native</span>
+                    <span class="tech-tag">Expo</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-wrapper">
+                    <img src="assets/logbook.png" alt="Project Preview" class="project-image-file">
+                </div>
+                <div>
+                    <span class="project-badge badge-web">Web App</span>
+                    <h3 class="project-card-title">Practicum Book Pickup System</h3>
+                    <p class="project-card-subtitle">Internship Project</p>
+                    <ul class="project-features-list">
+                        <li><i class="fas fa-check-circle feature-icon"></i> User Form</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Admin Login</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Dashboard</li>
+                    </ul>
+                </div>
+                <div class="project-tags">
+                    <span class="tech-tag">Google Apps Script</span>
+                    <span class="tech-tag">Google Sheets</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-wrapper">
+                    <img src="assets/cp.png" alt="Project Preview" class="project-image-file">
+                </div>
+                <div>
+                    <span class="project-badge badge-web">Web App</span>
+                    <h3 class="project-card-title">Equipment Loan System</h3>
+                    <p class="project-card-subtitle">Capstone Project</p>
+                    <ul class="project-features-list">
+                        <li><i class="fas fa-check-circle feature-icon"></i> Requirement Analysis</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Flowchart</li>
+                        <li><i class="fas fa-check-circle feature-icon"></i> Documentation</li>
+                    </ul>
+                </div>
+                <div class="project-tags">
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-container">
+        <div class="mb-8">
+            <h2 class="section-title-tag">Skills</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-card-container">
+            <div>
+                <h3 class="skills-category-title"><i class="fas fa-code icon-blue"></i> Programming</h3>
+                <ul class="skills-list">
+                    <li>• Java</li>
+                    <li>• JavaScript</li>
+                    <li>• Python</li>
+                    <li>• SQL</li>
+                    <li>• HTML</li>
+                    <li>• CSS</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="skills-category-title"><i class="fas fa-mobile-alt icon-blue"></i> Mobile</h3>
+                <ul class="skills-list">
+                    <li>• React Native</li>
+                    <li>• Expo</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="skills-category-title"><i class="fas fa-tools icon-blue"></i> Tools</h3>
+                <ul class="skills-list">
+                    <li>• GitHub</li>
+                    <li>• VS Code</li>
+                    <li>• Google Apps Script</li>
+                    <li>• Google Sheets</li>
+                    <li>• Canva</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="skills-category-title"><i class="fas fa-user icon-blue"></i> Soft Skills</h3>
+                <div class="space-y-3">
+                    <div>
+                        <div class="progress-label"><span>Fast Learning</span><span>90%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill progress-90"></div></div>
+                    </div>
+                    <div>
+                        <div class="progress-label"><span>Teamwork</span><span>95%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill progress-95"></div></div>
+                    </div>
+                    <div>
+                        <div class="progress-label"><span>Problem Solving</span><span>90%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill progress-90"></div></div>
+                    </div>
+                    <div>
+                        <div class="progress-label"><span>Communication</span><span>85%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill progress-85"></div></div>
+                    </div>
+                    <div>
+                        <div class="progress-label"><span>Time Management</span><span>90%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill progress-90"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-container">
+        <div class="mb-12">
+            <h2 class="section-title-tag">Experience</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <img src="assets/finic.png" alt="UKM FINIC">
+                <h3 class="timeline-title">Secretary General</h3>
+                <p class="timeline-subtitle">UKM FINIC Photography</p>
+                <p class="timeline-subtitle">
+                    Managed administration, recorded meeting minutes,
+                    maintained official documentation, and supported photography event coordination.
+                </p>
+                <span class="timeline-badge"><i class="far fa-calendar-alt mr-1"></i> 2024 - 2025</span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <img src="assets/icac.png" alt="ICAC UMS">
+                <h3 class="timeline-title">Sponsorship Staff</h3>
+                <p class="timeline-subtitle">ICAC UMS</p>
+                <p class="timeline-subtitle">
+                    Contacted potential sponsors, maintained partner communication,
+                    and supported collaborations during the International Conference and Competition.
+                </p>
+                <span class="timeline-badge"><i class="far fa-calendar-alt mr-1"></i> 2025</span>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <img src="assets/pambes.png" alt="Pameran Besar Ethereal">
+                <h3 class="timeline-title">Secretary</h3>
+                <p class="timeline-subtitle">Pameran Besar Ethereal</p>
+                <p class="timeline-subtitle">
+                    Managed event administration, recorded meeting minutes,
+                    maintained official documents, and supported event documentation.
+                </p>
+                <span class="timeline-badge"><i class="far fa-calendar-alt mr-1"></i> 2024</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container education-cert-row">
+        <div id="education" class="education-column">
+            <div class="mb-6">
+                <h2 class="section-title-tag">Education</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="education-card">
+                    <div class="education-icon-box">
+                        <img src="assets/logo_ums.png" alt="Logo Universitas Muhammadiyah Surakarta" class="education-logo">
+                    </div>
+                    <div>
+                        <h4 class="education-institution">Universitas Muhammadiyah Surakarta</h4>
+                        <p class="education-major">Informatics International Program</p>
+                        <span class="education-year">2023 - Present</span>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon-box">
+                        <img src="assets/logo_smanda.png" alt="Logo SMA Negeri 2 Pangkalan Bun" class="education-logo">
+                    </div>
+                    <div>
+                        <h4 class="education-institution">SMA Negeri 2 Pangkalan Bun</h4>
+                        <p class="education-major">Science Major</p>
+                        <span class="education-year">2020 - 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cert-column">
+            <div class="cert-header">
+                <div>
+                    <h2 class="section-title-tag">Licenses & Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-image-wrapper">
+                        <img src="assets/buildweb.png" alt="Cert 2" class="cert-image">
+                    </div>
+                    <div>
+                        <h4 class="cert-title">Workshop Web Programming Build Portfolio</h4>
+                        <p class="cert-meta">HIMATIF UMS - 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image-wrapper">
+                        <img src="assets/sekum.png" alt="Cert 1" class="cert-image">
+                    </div>
+                    <div>
+                        <h4 class="cert-title">General Secretary I</h4>
+                        <p class="cert-meta">FINIC Photography Club - 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-image-wrapper">
+                        <img src="assets/intern.png" alt="Cert 3" class="cert-image">
+                    </div>
+                    <div>
+                        <h4 class="cert-title">IT Laboratory Intern</h4>
+                        <p class="cert-meta">Computer Laboratory FKI UMS - 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-container contact-section">
+        <div class="mb-6">
+            <h2 class="section-title-tag">Contact Me</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+                <div class="contact-info-wrapper"><span class="contact-label">Email</span><a href="mailto:kinanthi.hasnaa@gmail.com" class="contact-value-link">kinanthi.hasnaa@gmail.com</a></div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon-box"><i class="fab fa-github"></i></div>
+                <div class="contact-info-wrapper"><span class="contact-label">GitHub</span><a href="https://github.com/KinanthiHasnaS" class="contact-value-link" target="_blank">github.com/KinanthiHasnaS</a></div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon-box"><i class="fab fa-instagram"></i></div>
+                <div class="contact-info-wrapper"><span class="contact-label">Instagram</span><a href="https://instagram.com/kinanthi_hs" class="contact-value-link" target="_blank">instagram.com/kinanthi_hs</a></div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-info-wrapper"><span class="contact-label">Location</span><span class="contact-value-text">Surakarta, Indonesia</span></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="portfolio-footer">
+        <p>© 2026 Kinanthi Hasna Sajiddah. All rights reserved.</p>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="scroll-top-btn">
+            <i class="fas fa-arrow-up text-xs"></i>
+        </button>
+    </footer>
+
+</body>
+</html>
